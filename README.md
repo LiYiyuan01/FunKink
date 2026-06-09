@@ -9,9 +9,6 @@ Y_i(t) = \beta_1(t)X_i + \beta_2(t)(X_i-\gamma)_+
        + \mathbf Z_i^\top \boldsymbol\beta_3(t) + e_i(t).
 $$
 
-It contains only estimation and testing code. Plotting, table formatting, and
-real-data reporting utilities are intentionally left out.
-
 ## Usage
 
 ```r

@@ -15,10 +15,7 @@ Description: A package for the article "Statistical Inference for Functional
     applications where covariate effects transition gradually rather than
     discontinuously. The package implements B-spline based estimation of the
     coefficient functions and threshold parameter, together with a score-type
-    supremum test for detecting the existence of a kink effect. The intercept
-    convention is user-controlled: simulations may pass a column of ones in Z,
-    while real-data applications may either include that column in Z or request
-    an additional intercept column.
+    supremum test for detecting the existence of a kink effect.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
