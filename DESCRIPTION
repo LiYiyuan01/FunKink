@@ -1,8 +1,11 @@
 Package: FunKink
 Title: Functional Right-Side Kink Model Estimation and Testing
 Version: 0.1.0
-Author: SFU Research [aut,cre]
-Maintainer: SFU Research <maintainer@example.com>
+Author: Xin Guan [aut],
+        Yiyuan Li [aut,cre],
+        Xu Liu [aut],
+        Jinhong You [aut]
+Maintainer: Yiyuan Li <liyiyuan@stu.sufe.edu.cn>
 Description: A package for functional kink model analysis in function-on-scalar
     regression. Motivated by structural changes in functional data, the package
     considers a right-side functional kink model
