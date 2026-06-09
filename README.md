@@ -4,27 +4,13 @@
 function-on-scalar regression. The model is designed for structural changes that
 remain continuous while allowing a kink in covariate effects:
 
-```tex
+$$
 Y_i(t) = \beta_1(t)X_i + \beta_2(t)(X_i-\gamma)_+
        + \mathbf Z_i^\top \boldsymbol\beta_3(t) + e_i(t).
-```
+$$
 
 It contains only estimation and testing code. Plotting, table formatting, and
 real-data reporting utilities are intentionally left out.
-
-## Model convention
-
-The kink term is right-side:
-
-```r
-pmax(x - gamma, 0)
-```
-
-The intercept is optional and user-controlled.
-
-- Simulation convention: pass `Z = cbind(1, z)` and use `intercept = FALSE`.
-- Real-data convention: either include a column of ones in `Z`, or set
-  `intercept = TRUE` in `prep_kink_data()`.
 
 ## Usage
 
