@@ -1,4 +1,4 @@
-# Right-side functional kink model:
+# Functional kink model:
 # Y_i(t) = beta_1(t) X_i + beta_2(t) (X_i - gamma)_+
 #          + Z_i' beta_3(t) + e_i(t)
 #
@@ -281,14 +281,14 @@ coef_kink <- function(object, ...) {
 }
 
 print.kink_fit <- function(x, ...) {
-  cat("Right-side functional kink fit\n")
+  cat("Functional kink fit\n")
   cat("  gamma:", format(x$gamma), "\n")
   cat("  rss:", format(x$rss), "\n")
   invisible(x)
 }
 
 print.kink_test <- function(x, ...) {
-  cat("Right-side functional kink test\n")
+  cat("Functional kink test\n")
   cat("  T_obs:", format(x$T_obs), "\n")
   cat("  p_value:", format(x$p_value), "\n")
   invisible(x)

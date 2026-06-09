@@ -1,6 +1,6 @@
 \name{fit_kink}
 \alias{fit_kink}
-\title{Fit a Right-Side Functional Kink Model}
+\title{Fit a Functional Kink Model}
 \usage{
 fit_kink(data, gamma_grid = NULL, grid_len = 300, nbasis = 10,
   rho = 1e-3, degree = 3, diff_order = 2)
@@ -15,7 +15,7 @@ fit_kink(data, gamma_grid = NULL, grid_len = 300, nbasis = 10,
 \item{diff_order}{Difference order used in the roughness penalty.}
 }
 \description{
-Fits the right-side kink model by grid search over \eqn{\gamma} and penalized
+Fits the functional kink model by grid search over \eqn{\gamma} and penalized
 least squares for functional coefficient curves.
 }
 \value{A \code{kink_fit} object containing \code{gamma}, \code{beta}, residuals, fitted values, and the RSS path.}

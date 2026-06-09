@@ -1,6 +1,6 @@
 \name{prep_kink_data}
 \alias{prep_kink_data}
-\title{Prepare Data for a Right-Side Functional Kink Model}
+\title{Prepare Data for a Functional Kink Model}
 \usage{
 prep_kink_data(Y, x, Z = NULL, t = NULL, scale_xz = TRUE,
   center_y = FALSE, standardize_y = FALSE, intercept = FALSE,

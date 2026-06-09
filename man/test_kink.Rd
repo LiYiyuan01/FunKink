@@ -1,6 +1,6 @@
 \name{test_kink}
 \alias{test_kink}
-\title{Right-Side Functional Kink Effect Test}
+\title{Functional Kink Effect Test}
 \usage{
 test_kink(data, B = 500, nbasis = 12, grid_len = 100, seed = 123)
 }
@@ -12,6 +12,6 @@ test_kink(data, B = 500, nbasis = 12, grid_len = 100, seed = 123)
 \item{seed}{Random seed for multiplier bootstrap weights.}
 }
 \description{
-Tests the right-side kink effect using a score/supremum statistic and multiplier bootstrap.
+Tests the kink effect using a score/supremum statistic and multiplier bootstrap.
 }
 \value{A \code{kink_test} object containing \code{p_value}, observed statistic, bootstrap statistics, and the gamma grid.}

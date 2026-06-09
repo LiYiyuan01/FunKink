@@ -9,6 +9,6 @@ coef_kink(object, ...)
 \item{...}{Reserved for future use.}
 }
 \description{
-Extracts estimated functional coefficient curves from a right-side kink fit.
+Extracts estimated functional coefficient curves from a kink fit.
 }
 \value{A matrix with rows indexing functional grid points and columns indexing coefficient functions.}

@@ -1,6 +1,6 @@
 \name{predict_kink}
 \alias{predict_kink}
-\title{Predict from a Right-Side Functional Kink Fit}
+\title{Predict from a Functional Kink Fit}
 \usage{
 predict_kink(object, newdata = NULL, ...)
 }

@@ -1,14 +1,14 @@
 Package: FunKink
-Title: Functional Right-Side Kink Model Estimation and Testing
+Title: Functional Kink Model Estimation and Testing
 Version: 0.1.0
 Author: Xin Guan [aut],
         Yiyuan Li [aut,cre],
         Xu Liu [aut],
         Jinhong You [aut]
 Maintainer: Yiyuan Li <liyiyuan@stu.sufe.edu.cn>
-Description: A package for functional kink model analysis in function-on-scalar
-    regression. Motivated by structural changes in functional data, the package
-    considers a right-side functional kink model
+Description: A package for the article "Statistical Inference for Functional
+    Data Models with Kink-structure Changes". Motivated by structural changes
+    in functional data, the package considers a functional kink model
     Y_i(t) = beta_1(t) X_i + beta_2(t) (X_i - gamma)_+ +
     Z_i' beta_3(t) + e_i(t), which requires continuity everywhere while
     allowing a kink in covariate effects. This structure is appropriate for

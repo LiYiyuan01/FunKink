@@ -1,4 +1,4 @@
-test_that("right-side kink fit and test run", {
+test_that("kink fit and test run", {
   set.seed(1)
   n <- 30
   m <- 8

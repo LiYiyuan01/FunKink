@@ -1,8 +1,8 @@
 # FunKink
 
-`FunKink` is a minimal R package for functional kink model analysis in
-function-on-scalar regression. The model is designed for structural changes that
-remain continuous while allowing a kink in covariate effects:
+`FunKink` is the R package for the article *Statistical Inference for Functional
+Data Models with Kink-structure Changes*. The model is designed for structural
+changes that remain continuous while allowing a kink in covariate effects:
 
 $$
 Y_i(t) = \beta_1(t)X_i + \beta_2(t)(X_i-\gamma)_+
